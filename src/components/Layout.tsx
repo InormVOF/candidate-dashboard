@@ -7,7 +7,7 @@ interface Props {
 }
 
 const Layout = ({ header = null, children }: Props) => (
-  <div className="p-2">
+  <div className="p-2 mt-4">
     <header className="flex justify-center pb-2">
       <div className="mr-4">
         <img src={logo} className="h-12 self-center" />

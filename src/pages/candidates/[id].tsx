@@ -52,7 +52,7 @@ const Candidate = ({ id }: Props) => {
 
   useEffect(() => {
     setCandidates(
-      data.map(({ id, data: row }: any) => {
+      data.map(({ id, data: row }: any): Candidate => {
         return {
           id,
           person: {
@@ -63,7 +63,13 @@ const Candidate = ({ id }: Props) => {
           },
           title: row.Title,
           description: row.Description,
-          rate: row.Hour_rate,
+          rate: Math.round(row.Hour_rate),
+          techSkills: row.Skills?.map(
+            ({ data: skill }: any): Skill => ({
+              name: skill.Skill[0]?.data?.Name,
+              level: skill.Level,
+            })
+          ).sort((a: Skill, b: Skill) => b.level - a.level),
         };
       })
     );
@@ -74,8 +80,6 @@ const Candidate = ({ id }: Props) => {
       setCandidate(candidates.find((c) => c.id === id));
     }
   }, [candidates, id]);
-
-  console.log(candidate);
 
   return (
     <Layout>
@@ -92,21 +96,32 @@ const Candidate = ({ id }: Props) => {
         </div>
         <div className="drawer-side w-80">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-          <List candidates={candidates} />
+          <List candidates={candidates} selectedCandidate={candidate} />
         </div>
       </div>
     </Layout>
   );
 };
 
-const List = ({ candidates }: { candidates: Candidate[] }) => {
+const List = ({
+  candidates,
+  selectedCandidate = undefined,
+}: {
+  candidates: Candidate[];
+  selectedCandidate?: Candidate;
+}) => {
   return (
     <ul className="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
       <li className="menu-title">
         <span>Candidates</span>
       </li>
       {candidates.map((candidate) => (
-        <li key={candidate.id} className="border-b-2 border-gray-400">
+        <li
+          key={candidate.id}
+          className={` ${
+            candidate.id === selectedCandidate?.id ? "bordered" : ""
+          }`}
+        >
           <a
             className="flex"
             onClick={() => navigate(`/candidates/${candidate.id}`)}
@@ -130,15 +145,62 @@ const List = ({ candidates }: { candidates: Candidate[] }) => {
 
 const Details = ({ candidate }: { candidate: Candidate }) => {
   return (
-    <div className="flex">
-      <img
-        src={candidate.person.picture?.large?.url}
-        className="rounded w-96"
-      />
-      <div className="flex flex-col prose pl-4">
-        <h1>{candidate.person.name.firstName}</h1>
-        <p>{candidate.description}</p>
-        <p>Rate: € {Math.round(candidate.rate || 0)},- </p>
+    <div>
+      <div className="flex">
+        <img
+          src={candidate.person.picture?.large?.url}
+          className="rounded w-96"
+        />
+        <div className="flex flex-col prose pl-4">
+          <h1>{candidate.person.name.firstName}</h1>
+          <p>{candidate.description}</p>
+          <p>Rate: € {candidate.rate},- </p>
+        </div>
+      </div>
+      <div className="prose mt-4">
+        <h3>Skills</h3>
+        {candidate.techSkills?.map((skill) => (
+          <div className="prose flex">
+            <h6 className="flex-1">{skill.name}</h6>
+            <div className="rating">
+              <input
+                type="radio"
+                name="rating-1"
+                className="mask mask-star"
+                checked={skill.level === 1}
+                disabled
+              />
+              <input
+                type="radio"
+                name="rating-1"
+                className="mask mask-star"
+                checked={skill.level === 2}
+                disabled
+              />
+              <input
+                type="radio"
+                name="rating-1"
+                className="mask mask-star"
+                checked={skill.level === 3}
+                disabled
+              />
+              <input
+                type="radio"
+                name="rating-1"
+                className="mask mask-star"
+                checked={skill.level === 4}
+                disabled
+              />
+              <input
+                type="radio"
+                name="rating-1"
+                className="mask mask-star"
+                checked={skill.level === 5}
+                disabled
+              />
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
