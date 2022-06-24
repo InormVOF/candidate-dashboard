@@ -154,7 +154,7 @@ const Details = ({ candidate }: { candidate: Candidate }) => {
         <div className="flex flex-col prose pl-4">
           <h1>{candidate.person.name.firstName}</h1>
           <p>{candidate.description}</p>
-          <p>Rate: € {candidate.rate},- </p>
+          <p>Hourly rate: € {candidate.rate},- </p>
         </div>
       </div>
       <div className="prose mt-4">
