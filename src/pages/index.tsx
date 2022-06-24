@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useCallback, useEffect, useState } from "react";
+import format from "date-fns/format";
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
@@ -7,6 +8,7 @@ import "react-tabs/style/react-tabs.css";
 import Layout from "../components/Layout";
 import { ResumeForm } from "../components/ResumeForm";
 import { FileUploader } from "../components/FileUploader";
+import { ResumePreview } from "../components/ResumePreview";
 
 const Home = () => {
   const [resumes, setResumes] = useState<UploadedResume[]>([]);
@@ -16,6 +18,10 @@ const Home = () => {
       const file = acceptedFiles[x];
       const formData = new FormData();
       formData.append("file", file);
+      formData.append(
+        "lastModifiedDate",
+        format(new Date(file.lastModified), "yyyy-MM-dd")
+      );
       const respoonse = await fetch("api/resume/reader", {
         body: formData,
         method: "post",
@@ -24,7 +30,6 @@ const Home = () => {
       const url = await reader(file);
       newResumes.push({ file, resume, url });
     }
-
     setResumes([...resumes, ...newResumes]);
   }, []);
 
@@ -51,14 +56,11 @@ const Home = () => {
         {resumes.map(({ file, resume, url }) => (
           <TabPanel key={file.name}>
             <div className="flex">
-              <div className="flex-1">
-                <ResumeForm resume={resume} file={file} />
+              <div className="flex-1 max-h-screen overflow-auto">
+                <ResumeForm resume={resume} file={file} url={url} />
               </div>
-              <div className="flex-1">
-                <iframe
-                  src={`${url}#toolbar=0`}
-                  className="w-full h-full"
-                ></iframe>
+              <div className="flex-1 max-h-screen">
+                <ResumePreview url={url} />
               </div>
             </div>
           </TabPanel>

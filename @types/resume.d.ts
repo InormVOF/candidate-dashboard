@@ -1,4 +1,5 @@
-interface Resume {
+interface Candidate {
+  id?: string;
   person: Person;
   title: string;
   description: string;
@@ -23,6 +24,11 @@ interface Person {
   licenseNo?: string;
   passport?: PersonPassport;
   email?: string;
+  picture?: {
+    full?: Picture;
+    large?: Picture;
+    small?: Picture;
+  };
 }
 
 interface PersonName {
@@ -40,14 +46,18 @@ interface PersonPassport {
 
 interface Skill {
   name: string;
-  level?: number;
-  experienceInMonths: number;
+  level: number;
+  experienceInMonths?: number;
 }
 
 interface Experience {
-  customerProject: string;
-  jobTitle: string;
-  description: string;
-  startDate: Date;
-  endDate: Date;
+  customerProject?: string;
+  jobTitle?: string;
+  description?: string;
+  startDate?: string;
+  endDate?: string;
+}
+
+interface Picture {
+  url: string;
 }

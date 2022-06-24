@@ -1,11 +1,16 @@
 import * as React from "react";
 import logo from "../images/logo.png";
 
-const Layout = ({ header = null, children }) => (
+interface Props {
+  header?: React.ReactNode;
+  children: React.ReactNode;
+}
+
+const Layout = ({ header = null, children }: Props) => (
   <div className="p-2">
     <header className="flex justify-center pb-2">
       <div className="mr-4">
-        <img src={logo} className="w-24 self-center" />
+        <img src={logo} className="h-12 self-center" />
       </div>
       {header}
     </header>
