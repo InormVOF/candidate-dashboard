@@ -3,10 +3,11 @@ interface Candidate {
   person: Person;
   title: string;
   description: string;
-  techSkills: Skill[];
-  softSkills: Skill[];
-  experiences: Experience[];
-  education: string;
+  techSkills?: Skill[];
+  softSkills?: Skill[];
+  experiences?: Experience[];
+  education?: string;
+  rate?: number;
 }
 
 interface UploadedResume {
