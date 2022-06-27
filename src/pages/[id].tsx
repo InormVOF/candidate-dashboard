@@ -3,8 +3,8 @@ import * as React from "react";
 import { useEffect, useState } from "react";
 import Select, { Options } from "react-select";
 
-import { Rating } from "../../components/Rating";
-import Layout from "../../components/Layout";
+import { Rating } from "../components/Rating";
+import Layout from "../components/Layout";
 import format from "date-fns/format";
 
 interface Props {
@@ -210,10 +210,7 @@ const List = ({
             candidate.id === selectedCandidate?.id ? "bordered" : ""
           }`}
         >
-          <a
-            className="flex"
-            onClick={() => navigate(`/candidates/${candidate.id}`)}
-          >
+          <a className="flex" onClick={() => navigate(`/${candidate.id}`)}>
             <img
               src={candidate.person.picture?.small?.url}
               className="mask mask-circle"
@@ -258,7 +255,7 @@ const Details = ({ candidate }: { candidate: Candidate }) => {
       </div>
       <div className="prose mt-4">
         <h3>Recent experience</h3>
-        {candidate.experiences?.map((experience, x) => (
+        {candidate.experiences?.map((experience: any, x) => (
           <div key={x} className="prose flex flex-col mb-8">
             <h5 className="text-xl">{experience.jobTitle}</h5>
             <h5 className="text-md">{experience.customerProject}</h5>
