@@ -8,6 +8,7 @@ interface Candidate {
   experiences?: Experience[];
   education?: string;
   rate?: number;
+  languages?: string[];
 }
 
 interface UploadedResume {
@@ -30,6 +31,7 @@ interface Person {
     large?: Picture;
     small?: Picture;
   };
+  country?: string;
 }
 
 interface PersonName {
