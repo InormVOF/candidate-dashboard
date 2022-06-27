@@ -81,29 +81,28 @@ module.exports = {
             // tableView: `Developers`, // optional
             queryName: `Candidate`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
             // mapping: { `CASE_SENSITIVE_COLUMN_NAME`: `VALUE_FORMAT` }, // optional, e.g. "text/markdown", "fileNode"
-            tableLinks: [`Skills`], // optional, for deep linking to records across tables.
+            tableLinks: [`Skills`, `Experience`], // optional, for deep linking to records across tables.
             separateNodeType: true, // boolean, default is false, see the documentation on naming conflicts for more information
             // separateMapType: false, // boolean, default is false, see the documentation on using markdown and attachments for more information
           },
           {
             baseId: `appPWchccYiFTZrfx`,
             tableName: `CandidateSkill`,
-            // tableView: `Developers`, // optional
-            queryName: `CandidateSkill`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
-            // mapping: { `CASE_SENSITIVE_COLUMN_NAME`: `VALUE_FORMAT` }, // optional, e.g. "text/markdown", "fileNode"
-            tableLinks: [`Skill`], // optional, for deep linking to records across tables.
-            separateNodeType: true, // boolean, default is false, see the documentation on naming conflicts for more information
-            // separateMapType: false, // boolean, default is false, see the documentation on using markdown and attachments for more information
+            queryName: `CandidateSkill`,
+            tableLinks: [`Skill`],
+            separateNodeType: true,
           },
           {
             baseId: `appPWchccYiFTZrfx`,
             tableName: `Skill`,
-            // tableView: `Developers`, // optional
-            queryName: `Skill`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
-            // mapping: { `CASE_SENSITIVE_COLUMN_NAME`: `VALUE_FORMAT` }, // optional, e.g. "text/markdown", "fileNode"
-            // tableLinks: [`Skill`], // optional, for deep linking to records across tables.
-            separateNodeType: true, // boolean, default is false, see the documentation on naming conflicts for more information
-            // separateMapType: false, // boolean, default is false, see the documentation on using markdown and attachments for more information
+            queryName: `Skill`,
+            separateNodeType: true,
+          },
+          {
+            baseId: `appPWchccYiFTZrfx`,
+            tableName: `Experience`,
+            queryName: `Experience`,
+            separateNodeType: true,
           },
         ],
       },

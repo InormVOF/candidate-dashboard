@@ -5,6 +5,7 @@ import Select, { Options } from "react-select";
 
 import { Rating } from "../../components/Rating";
 import Layout from "../../components/Layout";
+import format from "date-fns/format";
 
 interface Props {
   id: string;
@@ -37,6 +38,15 @@ const Candidate = ({ id }: Props) => {
                     Name
                   }
                 }
+              }
+            }
+            Experience {
+              data {
+                Description
+                Project_name
+                Enddate
+                Startdate
+                Role
               }
             }
             Picture {
@@ -90,6 +100,15 @@ const Candidate = ({ id }: Props) => {
             })
           ).sort((a: Skill, b: Skill) => b.level - a.level),
           languages: row.Languages?.join(", "),
+          experiences: row.Experience?.map(
+            ({ data: experience }: any): Experience => ({
+              customerProject: experience.Project_name,
+              jobTitle: experience.Role,
+              description: experience.Description,
+              startDate: experience.Startdate,
+              endDate: experience.Enddate,
+            })
+          ),
         };
       })
     );
@@ -155,7 +174,7 @@ const Candidate = ({ id }: Props) => {
                 isMulti
                 className="w-full"
                 onChange={filterSkills}
-                placeholder="Filter skills"
+                placeholder="Filter by skills"
               />
             }
           />
@@ -234,6 +253,20 @@ const Details = ({ candidate }: { candidate: Candidate }) => {
           <div key={skill.name} className="prose flex">
             <h6 className="flex-1">{skill.name}</h6>
             <Rating value={skill.level} readonly />
+          </div>
+        ))}
+      </div>
+      <div className="prose mt-4">
+        <h3>Recent experience</h3>
+        {candidate.experiences?.map((experience, x) => (
+          <div key={x} className="prose flex flex-col mb-8">
+            <h5 className="text-xl">{experience.jobTitle}</h5>
+            <h5 className="text-md">{experience.customerProject}</h5>
+            <div>
+              {format(new Date(experience.startDate), "PP")} -{" "}
+              {format(new Date(experience.endDate), "PP") || "current"}
+            </div>
+            <div>{experience.description}</div>
           </div>
         ))}
       </div>
