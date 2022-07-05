@@ -239,7 +239,7 @@ const Details = ({ candidate }: { candidate: Candidate }) => {
         <div className="flex flex-col prose pl-4">
           <h1>{candidate.person.name.firstName}</h1>
           <p>{candidate.description}</p>
-          <p>Hourly rate: € {candidate.rate},-</p>
+          {/* <p>Hourly rate: € {candidate.rate},-</p> */}
           <p>Language: {candidate.languages}</p>
           <p>Country: {candidate.person.country}</p>
         </div>
