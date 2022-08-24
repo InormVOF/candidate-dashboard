@@ -1,4 +1,6 @@
-require(`dotenv`).config();
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
@@ -72,7 +74,7 @@ module.exports = {
     {
       resolve: `gatsby-source-airtable`,
       options: {
-        apiKey: `keyDT1EOoXmtOh0BK`, // may instead specify via env, see below
+        apiKey: process.env.AIRTABLE_API_KEY,
         concurrency: 5, // default, see using markdown and attachments for more information
         tables: [
           {
