@@ -12,6 +12,7 @@ import { ResumePreview } from "../components/ResumePreview";
 
 const Home = () => {
   const [resumes, setResumes] = useState<UploadedResume[]>([]);
+
   const onDrop = useCallback(async (acceptedFiles: File[]) => {
     const newResumes: UploadedResume[] = [];
     for (let x = 0; x < acceptedFiles.length; x++) {

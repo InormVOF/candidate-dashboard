@@ -51,6 +51,7 @@ interface Skill {
   name: string;
   level: number;
   experienceInMonths?: number;
+  active?: boolean;
 }
 
 interface Experience {

@@ -1,71 +1,331 @@
 {
   "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Vignesh EsakkiMuthu",
+      "GivenName": "Vignesh",
+      "FamilyName": "EsakkiMuthu"
+    },
     "Telephones": [
       {
-        "Raw": "+91-33-6799-2222",
-        "Normalized": "+91 33 6799 2222",
-        "InternationalCountryCode": "91",
-        "SubscriberNumber": "33 6799 2222"
+        "Raw": "9535280182",
+        "Normalized": "+1 953-528-0182",
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "953",
+        "SubscriberNumber": "528-0182"
       }
     ],
     "EmailAddresses": [
-      "info@capitalnumbers.com"
+      "vemcse@gmail.com"
     ],
+    "Location": {
+      "CountryCode": "IN",
+      "Regions": [
+        "KARNATAKA"
+      ],
+      "Municipality": "Bengaluru"
+    },
     "WebAddresses": [
       {
-        "Address": "www.capitalnumbers.com",
-        "Type": "PersonalWebsite"
+        "Address": "https://www.linkedin.com/in/vignesh-esakkimuthu-aa709082?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3B2SOzGNcXTymacMR5UDH5Jw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile",
+        "Type": "LinkedIn"
+      },
+      {
+        "Address": "https://www.linkedin.com/in/vignesh-esakkimuthu-aa709082",
+        "Type": "LinkedIn"
       }
     ]
   },
+  "ProfessionalSummary": "Primary expertise includes:\n-- Ruby on Rails development\n-- Redmine configuration and maintenance\n-- Redmine plugin development\n-- Frontend: React Js\n-- jQuery/Javascript, CoffeeScript\n-- HAML, CSS3\n-- Git\n-- Search Libraries: Elastic Search, Xapian\n-- DB: Postgres, MYSQL\n-- Background Job delayed job and Redis\n-- API development: RESTful APIs\n-- Testing: RSpec & Capybara and have done TDD (Test Driven\nDevelopment)/BDD (Behaviour Driven Development) on several\nprojects.\n-- Cloud hosting: Comfortable handling server setups & deployments and have experience working with dedicated servers,\nAmazon EC2, Heroku.\n-- Methodology: Agile & Scrum/Kanban methodologies and great\ncommunication skills.\nI would love to help you build a state-of-the-art web application just as much as I would enjoy working on existing or legacy projects\n(developing new features, updating technologies, or bringing best\npractices and testing into unstable or poorly structured code).\nIf you have a project where you feel I can help out, please don't\nhesitate to get in touch!",
   "Education": {
     "HighestDegree": {
       "Name": {
-        "Raw": "Bachelor of Science",
-        "Normalized": "BSc"
+        "Raw": "Bachelor of Engineering",
+        "Normalized": "bachelors"
       },
       "Type": "bachelors"
     },
     "EducationDetails": [
       {
         "Id": "DEG-1",
-        "Text": "● Bachelor of Science (B.Sc.) degree from West Bengal State University.",
+        "Text": "Anna University\nBachelor of Engineering (BE), Computer Science • (2009 - 2013)",
         "SchoolName": {
-          "Raw": "West Bengal State University",
-          "Normalized": "West Bengal State"
+          "Raw": "Anna University",
+          "Normalized": "Anna University"
         },
         "SchoolType": "university",
         "Degree": {
           "Name": {
-            "Raw": "Bachelor of Science",
-            "Normalized": "BSc"
+            "Raw": "Bachelor of Engineering",
+            "Normalized": "bachelors"
           },
           "Type": "bachelors"
+        },
+        "Majors": [
+          "(BE), Computer Science"
+        ],
+        "LastEducationDate": {
+          "Date": "2013-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
         }
       }
     ]
   },
   "EmploymentHistory": {
     "ExperienceSummary": {
-      "Description": "The candidate is experienced in:  Information Technology (Programming; Cloud Computing; Config Deploy Upgrade Migrate). The candidate appears to be an entry-level candidate, with 0 months of experience.",
-      "MonthsOfWorkExperience": 0,
-      "MonthsOfManagementExperience": 0,
+      "Description": "Vignesh EsakkiMuthu is experienced in:  Information Technology (Programming). Vignesh EsakkiMuthu has 8 years of work experience, with 2 years of management experience, including a low-level position.",
+      "MonthsOfWorkExperience": 100,
+      "MonthsOfManagementExperience": 19,
       "ExecutiveType": "NONE",
-      "AverageMonthsPerEmployer": 0,
-      "FulltimeDirectHirePredictiveIndex": 0,
-      "ManagementStory": "",
+      "AverageMonthsPerEmployer": 16,
+      "FulltimeDirectHirePredictiveIndex": 16,
+      "ManagementStory": "Starting on 8/1/2017, the candidate held the following low-level management position for 19 months:\n\tTitle: Team Lead for TransTech Logistics Pvt. Ltd",
       "CurrentManagementLevel": "",
-      "ManagementScore": 0
+      "ManagementScore": 20
     },
     "Positions": [
       {
         "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Probable",
+            "Raw": "Freelance",
+            "Normalized": "Freelance"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Freelance Ruby On Rails",
+          "Normalized": "Freelance Ruby On Rails",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2022-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-06-30",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "EMPHASIS LIMITED",
+            "Normalized": "EMPHASIS"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Senior Software Engineer",
+          "Normalized": "Senior Software Engineer",
+          "Probability": "Confident",
+          "Variations": [
+            "Software Engineer"
+          ]
+        },
+        "StartDate": {
+          "Date": "2020-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-06-30",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "DXC Technology",
+            "Normalized": "DXC Technology"
+          },
+          "Location": {
+            "CountryCode": "IN",
+            "Regions": [
+              "Karnataka"
+            ],
+            "Municipality": "Bengaluru"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Consultant",
+          "Normalized": "Senior Consultant",
+          "Probability": "Confident",
+          "Variations": [
+            "Consultant"
+          ]
+        },
+        "StartDate": {
+          "Date": "2019-03-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2020-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "TransTech Logistics Pvt. Ltd",
+            "Normalized": "TransTech Logistics"
+          },
+          "Location": {
+            "CountryCode": "IN",
+            "Regions": [
+              "Karnataka"
+            ],
+            "Municipality": "Bengaluru"
+          }
+        },
         "IsSelfEmployed": false,
         "IsCurrent": false,
-        "JobType": "UNSPECIFIED",
-        "TaxonomyName": "Information Technology",
+        "JobTitle": {
+          "Raw": "Team Lead",
+          "Normalized": "Team Lead",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2017-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2019-02-28",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Entry Level",
         "TaxonomyPercentage": 0,
-        "Description": "● Having 5.3+ years of professional IT experience as DevOps Engineer & Software\nConfiguration and Build Management Engineer, Linux Administrator, and Cloud Assistant\nthat includes Environment setup, Build automation, Continuing Integration, scripting and\ndeployments.\n● Created EC2 instances in Amazon Web Services. Assigned Elastic IPs to the Instances.\n● Have experience in creating the volumes in EC2 and attaching those volumes to\nInstances.\n● Have experience in taking backup of EBS volumes using Amazon EBS snapshots.\n● Created an AMI from an existing instance to save the configuration & to use for other\ninstances.\n● Created and mounted the File Systems (EFS) on AWS Linux Instance, S3 bucket.\n● Worked on taking the ELB snapshots and restore in the same availability zone and for\nother regions.\n● Worked on taking complete Instance Backup and Restore.\n● Knowing Route53, IAM Role & Policies, Lambda, Cloud Watch, and SNS.\n● Knowing Terraform (Infrastructure as a code).\n● Installed and configured Web server on Linux AWS Instances.\n● Configured Load Balancer between different Instances.\n● Worked on the creation of custom Docker container images, tagging and pushing the\nimages.\n● Worked on creating the Docker containers and Docker consoles for managing the\napplication life cycle.\n● Knowledge of creating multiple containers using shell script.\n● Configuring the Docker containers and creating Docker files for different environments.\n● Experience in Automating, building, deploying, and releasing code from one environment\nto other environments.\n● Having Experience in modifying the existing Python, and Bash scripts.\n● Good hands-on experience in Build automation tools like Maven, and Npm.\n● Have written lots of JENKINS PIPELINE scripts from scratch.\n● Integrated Source Control Mechanism (clean up, checkout, update, commit, tagging, etc.)\nwith build systems using Ant and Shell scripting.\n● Extensive experience in using MAVEN build tool for the building deployable artifacts (jar,\nwar & ear) from source code.\n● Good knowledge of using SonarQube, Nexus Repos for Java, and Nodejs Project.\n● Creating and maintaining the source code repositories using Git/GitHub.\n● Worked on GitHub administration tasks like maintaining user base, access control,\nbackup, migrations, etc.\n● Good Working experience on Git.\n● Performed the tasks of Branching, Tagging & Merging the source code between multiple\nbranches.\n● Configured Continuous Integration (CI) tools Jenkins/Hudson from scratch. Installed\nJenkins, created build jobs, set up distributed build systems, and Handle custom Plugins,\nAdministration, Backup, and Migration activities.\n● Expertise in designing and developing Jenkins deployments.\n● Good hands-on experience in creating Jenkins jobs, plugin installations, and setting up\ndistributed builds using the master/slave concept.\n● Ability in managing all aspects of the software configuration management process\nincluding code compilation, packaging/deployment/release methodology, and\napplication configuration.\n● Experience in installing, configuring, managing, and tracing complex build problems,\nrelease issues, and troubleshooting skills.\n● Excellent experience in designing, documenting, and automating the build and release\nprocess.\n● Troubleshoot the build issue during the Jenkins build process.\n● Good knowledge in planning and updating development, QA, and staging environments\nwith different codebases, based on requirements.\n● Good knowledge in Analysing bugs, and interacting with development and QA teams to\nfix the defects and build failures.\n● Good hands-on experience with Tomcat application servers and deployments.\n● Good experience in SHELL scripting.\n● Accelerate application delivery with greater productivity and reliability.\n● Good Hands-on experience with Unix/Linux.\n● Coordinate with development and QA teams to deliver hotfixes to production in time.\n● Good knowledge in planning and updating development, QA, and staging environments\nwith different codebases, based on requirements.\n● Excellent communicative, interpersonal, intuitive, and analysis skills with the ability to\nwork efficiently in both independent and teamwork environments.\n● Having Good oral/written Communication Skills.\n\n\nRoles & Responsibilities\n\n●   Analysis, planning, and solution design.\n●   Development.\n●   Coding, integration, and testing.\n●   Client communication."
+        "Description": "India"
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Happiest Minds Technologies",
+            "Normalized": "Happiest Minds Technologies"
+          },
+          "Location": {
+            "CountryCode": "IN",
+            "Regions": [
+              "KARNATAKA"
+            ],
+            "Municipality": "Bengaluru"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Software Developer",
+          "Normalized": "Software Developer",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2016-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2017-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0,
+        "Description": "Area, India"
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Sriva Technologies",
+            "Normalized": "Sriva Technologies"
+          },
+          "Location": {
+            "CountryCode": "IN",
+            "Regions": [
+              "KARNATAKA"
+            ],
+            "Municipality": "Bengaluru"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Web Developer",
+          "Normalized": "Web Developer",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2014-04-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2016-07-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0,
+        "Description": "Area, India"
       }
     ]
   },
@@ -76,110 +336,65 @@
         {
           "Id": "10",
           "Name": "Information Technology",
-          "PercentOfOverall": 79,
+          "PercentOfOverall": 95,
           "SubTaxonomies": [
             {
               "SubTaxonomyId": "204",
               "SubTaxonomyName": "Programming",
-              "PercentOfOverall": 17,
-              "PercentOfParent": 22,
+              "PercentOfOverall": 70,
+              "PercentOfParent": 74,
               "Skills": [
                 {
-                  "Id": "013739",
-                  "Name": "Coding",
+                  "Id": "021194",
+                  "Name": "API",
                   "FoundIn": [
                     {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
-                },
-                {
-                  "Id": "555121771",
-                  "Name": "Continuous Integration/Delivery",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "555154320",
-                      "Name": "Ansible",
-                      "FoundIn": [
-                        {
-                          "SectionType": "SKILLS"
-                        }
-                      ],
-                      "ExistsInText": true
-                    },
-                    {
-                      "Id": "555121772",
-                      "Name": "Continuous Integration",
-                      "FoundIn": [
-                        {
-                          "SectionType": "PROJECT_HEADERS"
-                        },
-                        {
-                          "SectionType": "SKILLS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
                 },
                 {
                   "Id": "1004755",
                   "Name": "Git",
                   "FoundIn": [
                     {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
                 },
                 {
-                  "Id": "3391158",
-                  "Name": "Groovy",
+                  "Id": "025394",
+                  "Name": "Javascript",
                   "FoundIn": [
                     {
-                      "SectionType": "SKILLS"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
                 },
                 {
-                  "Id": "3391150",
-                  "Name": "Jenkins",
+                  "Id": "339048",
+                  "Name": "Jquery",
                   "FoundIn": [
                     {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
                 },
                 {
-                  "Id": "339002002",
-                  "Name": "Node.JS",
+                  "Id": "3391100",
+                  "Name": "Reactjs",
                   "ExistsInText": false,
                   "Variations": [
                     {
-                      "Id": "555154583",
-                      "Name": "NodeJS",
+                      "Id": "33911001",
+                      "Name": "React",
                       "FoundIn": [
                         {
-                          "SectionType": "WORK HISTORY"
+                          "SectionType": "SUMMARY"
                         }
                       ],
                       "ExistsInText": true
@@ -187,331 +402,176 @@
                   ]
                 },
                 {
-                  "Id": "006120",
-                  "Name": "Python",
+                  "Id": "1004740",
+                  "Name": "Rspec",
                   "FoundIn": [
                     {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
                 },
                 {
-                  "Id": "024873",
-                  "Name": "Scripting",
+                  "Id": "1004736",
+                  "Name": "Ruby",
                   "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
                     {
                       "SectionType": "SKILLS"
                     },
                     {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "555154375",
-                  "Name": "Shell Scripting",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
+                      "SectionType": "SUMMARY"
                     },
                     {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
                     }
                   ],
                   "ExistsInText": true,
                   "Variations": [
                     {
-                      "Id": "555154379",
-                      "Name": "Bash",
+                      "Id": "100473602",
+                      "Name": "Rails",
                       "FoundIn": [
                         {
-                          "SectionType": "WORK HISTORY"
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
                         }
                       ],
-                      "ExistsInText": true
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 1
+                      },
+                      "LastUsed": {
+                        "Value": "2022-06-30"
+                      }
+                    },
+                    {
+                      "Id": "100473601",
+                      "Name": "Ruby on Rails",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 1
+                      },
+                      "LastUsed": {
+                        "Value": "2022-06-30"
+                      }
                     }
-                  ]
+                  ],
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2022-06-30"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 1
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-06-30"
+                  }
                 },
                 {
-                  "Id": "555154659",
-                  "Name": "SonarQube",
+                  "Id": "3391105",
+                  "Name": "VUE.JS",
                   "FoundIn": [
                     {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SKILLS"
                     }
                   ],
                   "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "199",
+              "SubTaxonomyName": "Project Management",
+              "PercentOfOverall": 14,
+              "PercentOfParent": 15,
+              "Skills": [
+                {
+                  "Id": "555154520",
+                  "Name": "Agile",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "555121751",
+                  "Name": "Scrum",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "009222",
+                  "Name": "Team Lead",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 19
+                  },
+                  "LastUsed": {
+                    "Value": "2019-02-28"
+                  }
                 }
               ]
             },
             {
               "SubTaxonomyId": "550",
               "SubTaxonomyName": "Cloud Computing",
-              "PercentOfOverall": 12,
-              "PercentOfParent": 16,
+              "PercentOfOverall": 3,
+              "PercentOfParent": 3,
               "Skills": [
-                {
-                  "Id": "5500007",
-                  "Name": "Amazon Elastic Block Storage",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "550000701",
-                      "Name": "Amazon Ebs",
-                      "FoundIn": [
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    },
-                    {
-                      "Id": "550000702",
-                      "Name": "EBS",
-                      "FoundIn": [
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
                 {
                   "Id": "5500001",
                   "Name": "Amazon Elastic Compute Cloud",
                   "ExistsInText": false,
                   "Variations": [
                     {
+                      "Id": "550000101",
+                      "Name": "Amazon EC2",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "ExistsInText": true
+                    },
+                    {
                       "Id": "550000102",
                       "Name": "EC2",
                       "FoundIn": [
                         {
-                          "SectionType": "SKILLS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
-                {
-                  "Id": "3391154",
-                  "Name": "Amazon Web Services",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true,
-                  "Variations": [
-                    {
-                      "Id": "555121760",
-                      "Name": "AWS",
-                      "FoundIn": [
-                        {
-                          "SectionType": "SKILLS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
-                {
-                  "Id": "3391147",
-                  "Name": "Docker",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "555121644",
-                  "Name": "Kubernetes",
-                  "FoundIn": [
-                    {
-                      "SectionType": "SKILLS"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "555154558",
-                  "Name": "Load Balancing",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "555154560",
-                      "Name": "ELB",
-                      "FoundIn": [
-                        {
-                          "SectionType": "SKILLS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    },
-                    {
-                      "Id": "555154559",
-                      "Name": "Load Balancer",
-                      "FoundIn": [
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
-                {
-                  "Id": "555121767",
-                  "Name": "Terraform",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "251",
-              "SubTaxonomyName": "Config Deploy Upgrade Migrate",
-              "PercentOfOverall": 11,
-              "PercentOfParent": 14,
-              "Skills": [
-                {
-                  "Id": "2510002",
-                  "Name": "ANT",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "012153",
-                  "Name": "Build Management",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "022159",
-                  "Name": "Change Management",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "014175",
-                      "Name": "Configuration Management",
-                      "FoundIn": [
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
-                {
-                  "Id": "023631",
-                  "Name": "Deployment",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "2510001",
-                  "Name": "Maven",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "002468",
-                  "Name": "Migrations",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "007546",
-                  "Name": "SCM",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "022478",
-                  "Name": "Software Configuration",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true,
-                  "Variations": [
-                    {
-                      "Id": "008208",
-                      "Name": "Software Configuration Management",
-                      "FoundIn": [
-                        {
-                          "SectionType": "WORK HISTORY"
+                          "SectionType": "SUMMARY"
                         }
                       ],
                       "ExistsInText": true
@@ -523,453 +583,60 @@
             {
               "SubTaxonomyId": "196",
               "SubTaxonomyName": "Internet",
-              "PercentOfOverall": 6,
-              "PercentOfParent": 8,
-              "Skills": [
-                {
-                  "Id": "555121773",
-                  "Name": "AWS ROUTE53",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "555121775",
-                      "Name": "ROUTE53",
-                      "FoundIn": [
-                        {
-                          "SectionType": "SKILLS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
-                {
-                  "Id": "1004758",
-                  "Name": "Nginx",
-                  "FoundIn": [
-                    {
-                      "SectionType": "SKILLS"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "1004743",
-                  "Name": "SAAS",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "009664",
-                  "Name": "Tomcat",
-                  "FoundIn": [
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "011021",
-                  "Name": "WEB Server",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "011022",
-                  "Name": "WEB Services",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "203",
-              "SubTaxonomyName": "UNIX and LINUX",
-              "PercentOfOverall": 5,
-              "PercentOfParent": 7,
-              "Skills": [
-                {
-                  "Id": "023926",
-                  "Name": "Linux",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true,
-                  "Variations": [
-                    {
-                      "Id": "02392601",
-                      "Name": "Linux/Unix",
-                      "FoundIn": [
-                        {
-                          "SectionType": "SKILLS"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
-                {
-                  "Id": "01026309",
-                  "Name": "UNIX",
-                  "FoundIn": [
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true,
-                  "Variations": [
-                    {
-                      "Id": "010268",
-                      "Name": "Unix/Linux",
-                      "FoundIn": [
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "556",
-              "SubTaxonomyName": "Privacy and Data Security",
-              "PercentOfOverall": 5,
-              "PercentOfParent": 6,
-              "Skills": [
-                {
-                  "Id": "5551227",
-                  "Name": "Encrypting File System",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "5551228",
-                      "Name": "EFS",
-                      "FoundIn": [
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
-                {
-                  "Id": "5551282",
-                  "Name": "IPS",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "5551315",
-                  "Name": "ISO",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "5551268",
-                  "Name": "ISO 27001",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "339",
-              "SubTaxonomyName": "Java",
-              "PercentOfOverall": 5,
-              "PercentOfParent": 6,
-              "Skills": [
-                {
-                  "Id": "020255",
-                  "Name": "J2EE",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "023328",
-                  "Name": "JAVA",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "020279",
-                  "Name": "Jboss",
-                  "FoundIn": [
-                    {
-                      "SectionType": "SKILLS"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "3391126",
-                  "Name": "Spring",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "199",
-              "SubTaxonomyName": "Project Management",
               "PercentOfOverall": 3,
-              "PercentOfParent": 4,
-              "Skills": [
-                {
-                  "Id": "021586",
-                  "Name": "Application Life Cycle",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "2000006",
-                  "Name": "JIRA",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "024037",
-                  "Name": "Version Control",
-                  "FoundIn": [
-                    {
-                      "SectionType": "SKILLS"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "349",
-              "SubTaxonomyName": "Operations, Monitoring and Software Management",
-              "PercentOfOverall": 3,
-              "PercentOfParent": 4,
-              "Skills": [
-                {
-                  "Id": "0146073",
-                  "Name": "DEV OPS",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "0146074",
-                      "Name": "Devops",
-                      "FoundIn": [
-                        {
-                          "SectionType": "PROJECT_HEADERS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                },
-                {
-                  "Id": "555154670",
-                  "Name": "GitHub",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "SKILLS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "338",
-              "SubTaxonomyName": "Security",
-              "PercentOfOverall": 2,
               "PercentOfParent": 3,
               "Skills": [
                 {
-                  "Id": "3380008",
-                  "Name": "Access Control",
+                  "Id": "014705",
+                  "Name": "CSS",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "014705001",
+                      "Name": "CSS3",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "ExistsInText": true
+                    }
+                  ]
+                },
+                {
+                  "Id": "1004742",
+                  "Name": "Haml",
                   "FoundIn": [
                     {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
-                },
-                {
-                  "Id": "555155506",
-                  "Name": "Identity and Access Management",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "555155507",
-                      "Name": "IAM",
-                      "FoundIn": [
-                        {
-                          "SectionType": "SKILLS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "731",
-              "SubTaxonomyName": "User Interface",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 2,
-              "Skills": [
-                {
-                  "Id": "7310067",
-                  "Name": "User Interface",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "7310068",
-                      "Name": "UI",
-                      "FoundIn": [
-                        {
-                          "SectionType": "PROJECT_HEADERS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
                 }
               ]
             },
             {
               "SubTaxonomyId": "193",
               "SubTaxonomyName": "Database",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 2,
+              "PercentOfOverall": 3,
+              "PercentOfParent": 3,
               "Skills": [
                 {
                   "Id": "003243",
                   "Name": "Mysql",
                   "FoundIn": [
                     {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "200",
-              "SubTaxonomyName": "QA and QC",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 2,
-              "Skills": [
+                },
                 {
-                  "Id": "010065",
-                  "Name": "UAT",
+                  "Id": "005136",
+                  "Name": "Postgres",
                   "FoundIn": [
                     {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
@@ -977,35 +644,17 @@
               ]
             },
             {
-              "SubTaxonomyId": "555",
-              "SubTaxonomyName": "Enterprise Storage",
+              "SubTaxonomyId": "718",
+              "SubTaxonomyName": "Distributed Systems",
               "PercentOfOverall": 1,
               "PercentOfParent": 1,
               "Skills": [
                 {
-                  "Id": "5551331",
-                  "Name": "File Systems",
+                  "Id": "555155304",
+                  "Name": "Heroku",
                   "FoundIn": [
                     {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "253",
-              "SubTaxonomyName": "Protocols and Standards",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 1,
-              "Skills": [
-                {
-                  "Id": "019117",
-                  "Name": "HTTP",
-                  "FoundIn": [
-                    {
-                      "SectionType": "SKILLS"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
@@ -1019,485 +668,11 @@
               "PercentOfParent": 1,
               "Skills": [
                 {
-                  "Id": "5530783",
-                  "Name": "Jboss",
+                  "Id": "5530835",
+                  "Name": "Redis",
                   "FoundIn": [
                     {
-                      "SectionType": "SKILLS"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "5531064",
-                  "Name": "Software as a Service",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "5531065",
-                      "Name": "SAAS",
-                      "FoundIn": [
-                        {
-                          "SectionType": "PROJECT_HEADERS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "201",
-              "SubTaxonomyName": "Architecture",
-              "PercentOfOverall": 0,
-              "PercentOfParent": 0,
-              "Skills": [
-                {
-                  "Id": "022707",
-                  "Name": "Life Cycle",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "69",
-          "Name": "QA and QC",
-          "PercentOfOverall": 3,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "941",
-              "SubTaxonomyName": "Other",
-              "PercentOfOverall": 3,
-              "PercentOfParent": 100,
-              "Skills": [
-                {
-                  "Id": "006125",
-                  "Name": "QA",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "022250",
-                  "Name": "Quality Assurance",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "12",
-          "Name": "Legal",
-          "PercentOfOverall": 3,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "397",
-              "SubTaxonomyName": "Clerical & Paralegal",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 50,
-              "Skills": [
-                {
-                  "Id": "3970006",
-                  "Name": "Drafting",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "400",
-              "SubTaxonomyName": "Litigation",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 50,
-              "Skills": [
-                {
-                  "Id": "200081",
-                  "Name": "Clients",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "14",
-          "Name": "Marketing",
-          "PercentOfOverall": 2,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "226",
-              "SubTaxonomyName": "Channel Management",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 55,
-              "Skills": [
-                {
-                  "Id": "1400215",
-                  "Name": "Retail Marketing",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "1400216",
-                      "Name": "Retail",
-                      "FoundIn": [
-                        {
-                          "SectionType": "PROJECT_HEADERS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "227",
-              "SubTaxonomyName": "Brand Management",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 45,
-              "Skills": [
-                {
-                  "Id": "004215",
-                  "Name": "Packaging",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "31",
-          "Name": "Written Communications",
-          "PercentOfOverall": 2,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "430",
-              "SubTaxonomyName": "General",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 55,
-              "Skills": [
-                {
-                  "Id": "006029",
-                  "Name": "Publishing",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "429",
-              "SubTaxonomyName": "Specs and Documentation",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 45,
-              "Skills": [
-                {
-                  "Id": "023928",
-                  "Name": "Documenting",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "93",
-          "Name": "User Experience",
-          "PercentOfOverall": 1,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "573",
-              "SubTaxonomyName": "Product Design",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 100,
-              "Skills": [
-                {
-                  "Id": "5570161",
-                  "Name": "User Experience Design",
-                  "ExistsInText": false,
-                  "Variations": [
-                    {
-                      "Id": "55701622",
-                      "Name": "UX",
-                      "FoundIn": [
-                        {
-                          "SectionType": "PROJECT_HEADERS"
-                        },
-                        {
-                          "SectionType": "WORK HISTORY"
-                        }
-                      ],
-                      "ExistsInText": true
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "34",
-          "Name": "Business Operations and General Business",
-          "PercentOfOverall": 1,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "437",
-              "SubTaxonomyName": "General Skills and Activities",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 100,
-              "Skills": [
-                {
-                  "Id": "021737",
-                  "Name": "Metrics",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "15",
-          "Name": "Scientific",
-          "PercentOfOverall": 1,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "373",
-              "SubTaxonomyName": "Bio",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 100,
-              "Skills": [
-                {
-                  "Id": "020759",
-                  "Name": "Life Sciences",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "95",
-          "Name": "Healthcare Non-physician Non-nurse",
-          "PercentOfOverall": 1,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "158",
-              "SubTaxonomyName": "Allied Health",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 100,
-              "Skills": [
-                {
-                  "Id": "018806",
-                  "Name": "Healthcare",
-                  "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "7",
-          "Name": "Finance",
-          "PercentOfOverall": 1,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "702",
-              "SubTaxonomyName": "Tax",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 90,
-              "Skills": [
-                {
-                  "Id": "7000014",
-                  "Name": "Nexus",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            },
-            {
-              "SubTaxonomyId": "237",
-              "SubTaxonomyName": "Operations",
-              "PercentOfOverall": 0,
-              "PercentOfParent": 10,
-              "Skills": [
-                {
-                  "Id": "020748",
-                  "Name": "Life Cycle",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "5",
-          "Name": "Engineering",
-          "PercentOfOverall": 1,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "307",
-              "SubTaxonomyName": "General Engineering",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 100,
-              "Skills": [
-                {
-                  "Id": "023356",
-                  "Name": "Containerization",
-                  "FoundIn": [
-                    {
-                      "SectionType": "SKILLS"
-                    }
-                  ],
-                  "ExistsInText": true
-                },
-                {
-                  "Id": "020750",
-                  "Name": "Life Cycle",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "46",
-          "Name": "Call Center or Help Desk or Customer Service",
-          "PercentOfOverall": 1,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "130",
-              "SubTaxonomyName": "Customer Facing",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 100,
-              "Skills": [
-                {
-                  "Id": "013439",
-                  "Name": "Client Communication",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
-                    }
-                  ],
-                  "ExistsInText": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Id": "45",
-          "Name": "Transmission & Distribution",
-          "PercentOfOverall": 1,
-          "SubTaxonomies": [
-            {
-              "SubTaxonomyId": "326",
-              "SubTaxonomyName": "Transmission",
-              "PercentOfOverall": 1,
-              "PercentOfParent": 100,
-              "Skills": [
-                {
-                  "Id": "004805",
-                  "Name": "Pipeline",
-                  "FoundIn": [
-                    {
-                      "SectionType": "WORK HISTORY"
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
@@ -1509,23 +684,38 @@
         {
           "Id": "97",
           "Name": "Supply Chain and Logistics",
-          "PercentOfOverall": 1,
+          "PercentOfOverall": 2,
           "SubTaxonomies": [
             {
               "SubTaxonomyId": "460",
               "SubTaxonomyName": "Logistics",
               "PercentOfOverall": 1,
-              "PercentOfParent": 100,
+              "PercentOfParent": 67,
               "Skills": [
                 {
-                  "Id": "022740",
-                  "Name": "Scheduling",
+                  "Id": "022309",
+                  "Name": "Logistics",
                   "FoundIn": [
                     {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
-                    {
                       "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "459",
+              "SubTaxonomyName": "Inventory",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 33,
+              "Skills": [
+                {
+                  "Id": "027010",
+                  "Name": "Kanban",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
                     }
                   ],
                   "ExistsInText": true
@@ -1537,21 +727,61 @@
         {
           "Id": "13",
           "Name": "Manufacturing",
-          "PercentOfOverall": 0,
+          "PercentOfOverall": 2,
           "SubTaxonomies": [
             {
-              "SubTaxonomyId": "208",
-              "SubTaxonomyName": "Planning",
+              "SubTaxonomyId": "364",
+              "SubTaxonomyName": "Equipment",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 80,
+              "Skills": [
+                {
+                  "Id": "022116",
+                  "Name": "Maintenance",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "209",
+              "SubTaxonomyName": "Logistics",
               "PercentOfOverall": 0,
+              "PercentOfParent": 20,
+              "Skills": [
+                {
+                  "Id": "027009",
+                  "Name": "Kanban",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "16",
+          "Name": "Telecommunications",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "317",
+              "SubTaxonomyName": "Standards, Protocols, Technologies",
+              "PercentOfOverall": 1,
               "PercentOfParent": 100,
               "Skills": [
                 {
-                  "Id": "022739",
-                  "Name": "Scheduling",
+                  "Id": "015756",
+                  "Name": "DXC",
                   "FoundIn": [
-                    {
-                      "SectionType": "PROJECT_HEADERS"
-                    },
                     {
                       "SectionType": "WORK HISTORY"
                     }
@@ -1569,46 +799,57 @@
     {
       "Language": "English",
       "LanguageCode": "en",
-      "FoundInContext": "[RESUME_LANGUAGE]"
+      "FoundInContext": "English"
+    },
+    {
+      "Language": "Tamil",
+      "LanguageCode": "ta",
+      "FoundInContext": "Tamil"
+    },
+    {
+      "Language": "Kannada",
+      "LanguageCode": "kn",
+      "FoundInContext": "Kannada"
     }
   ],
-  "Achievements": [
-    "multiple awards and accolades from organizations like CII, Clutch, GoodFirms, Deloitte, Financial",
-    "Phone: +91-33-6799-2222",
-    "Email: info@capitalnumbers.com"
-  ],
-  "QualificationsSummary": "Technical Skills\n\nBuild System & Tools\tMaven, npm\n\n\nSoftware Version Control\tGit, GITHUB\nSystems\n\n\nScripting/Languages\t Shell, Python, Groovy\n\n\nContinuous Integration (CI)\t Jenkins\nWeb/Application Servers\tTomcat, HTTP/apache2, Nginx, Jboss\n\n\nConfiguration Tools\tAnsible\n\n\nOperating Systems\tLinux/Unix\n\n\nContainerization\tDocker, Kubernetes, EKS, GKE, K8ops\n\n\nCloud\tAWS (Vpc, ec2, ALB, ELB, ASG, Route53, IAM Role & Policies, Lambda, Cloud Watch, and SNS.),\nAzure(Implementing)",
+  "QualificationsSummary": "Top Skills\nRuby on Rails\nVue.js\nWeb Development",
   "ResumeMetadata": {
     "FoundSections": [
       {
         "FirstLineNumber": 9,
-        "LastLineNumber": 88,
+        "LastLineNumber": 33,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "Summary"
+      },
+      {
+        "FirstLineNumber": 34,
+        "LastLineNumber": 68,
         "SectionType": "WORK HISTORY",
-        "HeaderTextFound": "Experience Summary"
+        "HeaderTextFound": "Experience"
       },
       {
-        "FirstLineNumber": 89,
-        "LastLineNumber": 117,
-        "SectionType": "SKILLS",
-        "HeaderTextFound": "Technical Skills"
-      },
-      {
-        "FirstLineNumber": 118,
-        "LastLineNumber": 122,
+        "FirstLineNumber": 69,
+        "LastLineNumber": 71,
         "SectionType": "EDUCATION",
         "HeaderTextFound": "Education"
       },
       {
-        "FirstLineNumber": 123,
-        "LastLineNumber": 295,
-        "SectionType": "PROJECT_HEADERS",
-        "HeaderTextFound": "Project Experience"
+        "FirstLineNumber": 72,
+        "LastLineNumber": 77,
+        "SectionType": "CONTACT INFO",
+        "HeaderTextFound": "Contact"
       },
       {
-        "FirstLineNumber": 296,
-        "LastLineNumber": 304,
-        "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS",
-        "HeaderTextFound": "Awards"
+        "FirstLineNumber": 78,
+        "LastLineNumber": 82,
+        "SectionType": "SKILLS",
+        "HeaderTextFound": "Top Skills"
+      },
+      {
+        "FirstLineNumber": 83,
+        "LastLineNumber": 86,
+        "SectionType": "LANGUAGES",
+        "HeaderTextFound": "Languages"
       }
     ],
     "ResumeQuality": [
@@ -1616,8 +857,8 @@
         "Level": "Fatal Problems Found",
         "Findings": [
           {
-            "QualityCode": "419",
-            "Message": "We found no valid start and end dates for the jobs in your work history. Each job must have a start date and an end date, preferably at the start of the line, and written as MONTH YYYY - MONTH YYYY. Never use dates that include the 'day' part."
+            "QualityCode": "433",
+            "Message": "We detected that this document contained at least some data that was laid out as columns or tables. We rearranged that data to make it more usable. NEVER use columns or tables in a resume."
           }
         ]
       },
@@ -1629,18 +870,8 @@
             "Message": "You should not use the PDF format for your resume. Due to inherent limitations with text extraction from PDFs, you are less likely to get a job when using a PDF resume."
           },
           {
-            "QualityCode": "302",
-            "Message": "A first and last name was not found in the contact information. A resume should always include the candidate's first and last name."
-          },
-          {
-            "QualityCode": "303",
-            "SectionIdentifiers": [
-              {
-                "SectionType": "PROJECT_HEADERS",
-                "Id": "3"
-              }
-            ],
-            "Message": "These sections are longer than the work history and education sections combined. This may indicate a problem with section headers, formatting, or content."
+            "QualityCode": "311",
+            "Message": "The resume contains a contact information section that is not the first section. A resume should always include the candidate's contact info at the top of the resume."
           }
         ]
       },
@@ -1650,50 +881,6 @@
           {
             "QualityCode": "213",
             "Message": "A street level address was not found in the contact information. A full contact address should always be included in a resume as it allows for location based searches."
-          },
-          {
-            "QualityCode": "221",
-            "SectionIdentifiers": [
-              {
-                "SectionType": "WORK HISTORY",
-                "Id": "POS-1"
-              }
-            ],
-            "Message": "Every position in a resume should have a job title."
-          },
-          {
-            "QualityCode": "222",
-            "SectionIdentifiers": [
-              {
-                "SectionType": "WORK HISTORY",
-                "Id": "POS-1"
-              }
-            ],
-            "Message": "Every position in a resume should have an employer name."
-          },
-          {
-            "QualityCode": "224",
-            "SectionIdentifiers": [
-              {
-                "SectionType": "WORK HISTORY",
-                "Id": "POS-1"
-              }
-            ],
-            "Message": "Every position in a resume should have a start date."
-          },
-          {
-            "QualityCode": "225",
-            "SectionIdentifiers": [
-              {
-                "SectionType": "WORK HISTORY",
-                "Id": "POS-1"
-              }
-            ],
-            "Message": "Every position in a resume should have an end date, unless it is a currently held position."
-          },
-          {
-            "QualityCode": "226",
-            "Message": "We found no work history positions within the past year. A resume should include work history information, including time off, for the most recent year."
           }
         ]
       },
@@ -1702,27 +889,32 @@
         "Findings": [
           {
             "QualityCode": "112",
-            "Message": "The following section was identified as a skills section type: 'Technical Skills'. Skills should not be in a separate section, but instead, each skill should be included in the descriptions of work history or education. THIS IS INCREDIBLY IMPORTANT FOR AI MATCHING ALGORITHMS"
+            "Message": "The following section was identified as a skills section type: 'Top Skills'. Skills should not be in a separate section, but instead, each skill should be included in the descriptions of work history or education. THIS IS INCREDIBLY IMPORTANT FOR AI MATCHING ALGORITHMS"
           }
         ]
       }
     ],
     "ReservedData": {
       "Phones": [
-        "Phone: +91-33-6799-2222",
-        "+91-33-6799-2222"
+        "Contact 9535280182 (Mobile)",
+        "9535280182"
+      ],
+      "Names": [
+        "vignesh-esakkimuthu",
+        "Vignesh EsakkiMuthu"
       ],
       "EmailAddresses": [
-        "info@capitalnumbers.com"
+        "vemcse@gmail.com"
       ],
       "Urls": [
-        "www.capitalnumbers.com"
+        "https://www.linkedin.com/in/vignesh-esakkimuthu-aa709082?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3B2SOzGNcXTymacMR5UDH5Jw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile",
+        "https://www.linkedin.com/in/vignesh-esakkimuthu-aa709082"
       ]
     },
-    "PlainText": "Hire In-Demand Skills,\nOn-Demand\n\nYou are in a good company\nDevOps Developer\n\nARNAB\n\n\nExperience Summary\n\n● Having 5.3+ years of professional IT experience as DevOps Engineer & Software\nConfiguration and Build Management Engineer, Linux Administrator, and Cloud Assistant\nthat includes Environment setup, Build automation, Continuing Integration, scripting and\ndeployments.\n● Created EC2 instances in Amazon Web Services. Assigned Elastic IPs to the Instances.\n● Have experience in creating the volumes in EC2 and attaching those volumes to\nInstances.\n● Have experience in taking backup of EBS volumes using Amazon EBS snapshots.\n● Created an AMI from an existing instance to save the configuration & to use for other\ninstances.\n● Created and mounted the File Systems (EFS) on AWS Linux Instance, S3 bucket.\n● Worked on taking the ELB snapshots and restore in the same availability zone and for\nother regions.\n● Worked on taking complete Instance Backup and Restore.\n● Knowing Route53, IAM Role & Policies, Lambda, Cloud Watch, and SNS.\n● Knowing Terraform (Infrastructure as a code).\n● Installed and configured Web server on Linux AWS Instances.\n● Configured Load Balancer between different Instances.\n● Worked on the creation of custom Docker container images, tagging and pushing the\nimages.\n● Worked on creating the Docker containers and Docker consoles for managing the\napplication life cycle.\n● Knowledge of creating multiple containers using shell script.\n● Configuring the Docker containers and creating Docker files for different environments.\n● Experience in Automating, building, deploying, and releasing code from one environment\nto other environments.\n● Having Experience in modifying the existing Python, and Bash scripts.\n● Good hands-on experience in Build automation tools like Maven, and Npm.\n● Have written lots of JENKINS PIPELINE scripts from scratch.\n● Integrated Source Control Mechanism (clean up, checkout, update, commit, tagging, etc.)\nwith build systems using Ant and Shell scripting.\n● Extensive experience in using MAVEN build tool for the building deployable artifacts (jar,\nwar & ear) from source code.\n● Good knowledge of using SonarQube, Nexus Repos for Java, and Nodejs Project.\n● Creating and maintaining the source code repositories using Git/GitHub.\n● Worked on GitHub administration tasks like maintaining user base, access control,\nbackup, migrations, etc.\n● Good Working experience on Git.\n● Performed the tasks of Branching, Tagging & Merging the source code between multiple\nbranches.\n● Configured Continuous Integration (CI) tools Jenkins/Hudson from scratch. Installed\nJenkins, created build jobs, set up distributed build systems, and Handle custom Plugins,\nAdministration, Backup, and Migration activities.\n● Expertise in designing and developing Jenkins deployments.\n● Good hands-on experience in creating Jenkins jobs, plugin installations, and setting up\ndistributed builds using the master/slave concept.\n● Ability in managing all aspects of the software configuration management process\nincluding code compilation, packaging/deployment/release methodology, and\napplication configuration.\n● Experience in installing, configuring, managing, and tracing complex build problems,\nrelease issues, and troubleshooting skills.\n● Excellent experience in designing, documenting, and automating the build and release\nprocess.\n● Troubleshoot the build issue during the Jenkins build process.\n● Good knowledge in planning and updating development, QA, and staging environments\nwith different codebases, based on requirements.\n● Good knowledge in Analysing bugs, and interacting with development and QA teams to\nfix the defects and build failures.\n● Good hands-on experience with Tomcat application servers and deployments.\n● Good experience in SHELL scripting.\n● Accelerate application delivery with greater productivity and reliability.\n● Good Hands-on experience with Unix/Linux.\n● Coordinate with development and QA teams to deliver hotfixes to production in time.\n● Good knowledge in planning and updating development, QA, and staging environments\nwith different codebases, based on requirements.\n● Excellent communicative, interpersonal, intuitive, and analysis skills with the ability to\nwork efficiently in both independent and teamwork environments.\n● Having Good oral/written Communication Skills.\n\n\nRoles & Responsibilities\n\n●   Analysis, planning, and solution design.\n●   Development.\n●   Coding, integration, and testing.\n●   Client communication.\n\n\nTechnical Skills\n\nBuild System & Tools\tMaven, npm\n\n\nSoftware Version Control\tGit, GITHUB\nSystems\n\n\nScripting/Languages\t Shell, Python, Groovy\n\n\nContinuous Integration (CI)\t Jenkins\nWeb/Application Servers\tTomcat, HTTP/apache2, Nginx, Jboss\n\n\nConfiguration Tools\tAnsible\n\n\nOperating Systems\tLinux/Unix\n\n\nContainerization\tDocker, Kubernetes, EKS, GKE, K8ops\n\n\nCloud\tAWS (Vpc, ec2, ALB, ELB, ASG, Route53, IAM Role & Policies, Lambda, Cloud Watch, and SNS.),\nAzure(Implementing)\n\n\nEducation\n\n● Bachelor of Science (B.Sc.) degree from West Bengal State University.\n\n\nProject Experience\n\n\nProject\t  Insurance Portal\n\n\nRole\tBuild & Release engineer\n\n\nSCM Tools\tGit/GitHub\n\n\nBUILD Tools\tMaven\nCI Tools\t  Jenkins/Hudson\n\n\nScripting\t Shell scripting, Python\nLanguages\n\n\nProgramming\tJava\nLanguages\n\n\nDevelopment\tLinux, MySQL, J2EE, Docker Swarm\nEnvironment\n\n\nRoles &\t  ● Perform the tasks of build scheduling, automation,\nResponsibilities\tand creating patch builds.\n● Setting up Continuous Integration processes,\ncreating CI build jobs, and distributing builds using\nJenkins.\n● Performing the tasks of Branching & Merging the\ncode.\n● Automate build and release process using MAVEN,\nJenkins, and Shell whenever necessary.\n● Configuring environments and deploying the code to\ndifferent environments like DEV, QA, PERF, STAGE,\nand PROD.\n● Responsible for maintaining and implementing\nsource control mechanisms.\n● Tracking artifacts, Build, and deployment\ninformation.\n\n\nProject\teCommerce\n\n\nRole\tDevOps engineer\nSCM Tools\t  Git/GitHub\n\n\nBUILD Tools\tMaven\n\n\nCI Tools\tJenkins\n\n\nScripting\t  Shell scripting\nLanguages\n\n\nBUG Tracking Tool   JIRA\n\n\nDevelopment\tLinux, Mongo dB, Angular, Core Java, Spring-boot\nEnvironment\n\n\nRoles and\t  ● Writing and maintaining build scripts. Handled Daily,\nResponsibilities\tNightly, and Compile check builds.\n● Created multiple Jenkins jobs and configured\ndistributed builds. Managed Jenkins E2E.\n● Performing the tasks of Branching, Tagging &\nMerging the code between branches.\n● Responsible for labeling and building the code to be\ndeployed.\n● Perform the tasks of scheduling build automation,\nand building service patch builds and scripts.\n● Writing Implementation plan and driving the\nimplementation during releases.\n● Configuring environment script files and deploying\nthe code to environments (DEV, QA, UAT, PROD).\n● Perform the task of Sanity tests to evaluate the\nrelease quality.\n● Tracking artifacts, Build, and deployment\ninformation.\n● Handle responsibilities of drafting and maintaining\nwritten procedures for build and release\nmanagement.\n● Responsible for coordinating with development and\nquality assurance staff for developing the\ninfrastructure required for automating the release\nprocess.\n● Responsible for tracking metrics related to each\nrelease.\n\n\nProject\tFintech\n\n\nRole\tDevOps Engineer\n\n\nSCM Tools\t Git/GitHub\n\n\nBUILD Tools\tMaven\n\n\nCI Tools\t  Jenkins\n\n\nScripting\t Shell scripting, Python\nLanguages\n\n\nRoles and\t ● Worked on creation of custom Docker container\nResponsibilities\timages, tagging and pushing the images.\n● Writing and maintaining build scripts. Handled Daily,\nNightly, and Compile check builds.\n● Created multiple Jenkins jobs and configured\ndistributed builds. Managed Jenkins E2E.\n● Performing the tasks of Branching, Tagging &\nMerging the code between branches.\n● Responsible for labeling and building the code to be\ndeployed.\n● Perform the tasks of scheduling build automation,\nbuilding service patch builds and scripts.\n● Writing Implementation plan and driving the\nimplementation during releases.\n● Configuring environment script files and deploying\nthe code to environments (DEV, QA, UAT, PROD).\n● Perform the task of Sanity tests to evaluate the\nrelease quality.\n● Tracking artifacts, Build, and deployment\ninformation.\n● Handle responsibilities of drafting and maintaining\nwritten procedures for build and release\nmanagement.\n● Responsible for coordinating with development and\nquality assurance staff for developing the\ninfrastructure required for automating the release\nprocess.\nOur Technology Skills\n\n\n+ many more\nAbout Capital Numbers\n\n\n600+\t237+\tCertifications\t100+ Five Star\nNumber of Employees\tClients Worldwide\tISO 9001:2008, ISO\tReviews\nOn Clutch, Google, and\n27001:2013\nGoodFirms\n\n\nCapital Numbers is an ISO 9001 and ISO 27001 certified digital solutions company with 600+\nexperts working full-time across 3 Delivery Centres. Established in 2012, Capital Numbers are\nheadquartered in Kolkata, India, with offices in the USA, Sweden, and Australia. We are winners of\nmultiple awards and accolades from organizations like CII, Clutch, GoodFirms, Deloitte, Financial\nTimes, Economic Times, and the Bengal Chamber of Commerce.\n\nOur innovative \"In-Demand Skills, On-Demand\" allows businesses to ramp up their team for Web,\nMobile, DevOps, AI/ML, or UI/UX Development needs. We serve companies ranging from start-ups\nand SMEs to global brands from all across the world.\n\nOur industry expertise includes digital publishing, SaaS applications, online retail, financial\nservices, travel and consumer, software and hi-tech, business information and media, life sciences\nand healthcare, as well as other emerging industries. Our primary aim is to provide our clients with\nquality services, customer-specific technologies, and comprehensive expertise.\nAwards\n\n\nContact Us\n\n\nwww.capitalnumbers.com\nPhone: +91-33-6799-2222\nEmail: info@capitalnumbers.com",
+    "PlainText": "https://www.linkedin.com/in/vignesh-esakkimuthu-aa709082?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3B2SOzGNcXTymacMR5UDH5Jw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile\nhttps://www.linkedin.com/in/vignesh-esakkimuthu-aa709082\n\n\nvemcse@gmail.com\nwww.linkedin.com/in/vignesh-esakkimuthu-aa709082\nVignesh EsakkiMuthu\nfreelancer Ruby on rails\nBengaluru\nSummary\nPrimary expertise includes:\n-- Ruby on Rails development\n-- Redmine configuration and maintenance\n-- Redmine plugin development\n-- Frontend: React Js\n-- jQuery/Javascript, CoffeeScript\n-- HAML, CSS3\n-- Git\n-- Search Libraries: Elastic Search, Xapian\n-- DB: Postgres, MYSQL\n-- Background Job delayed job and Redis\n-- API development: RESTful APIs\n-- Testing: RSpec & Capybara and have done TDD (Test Driven\nDevelopment)/BDD (Behaviour Driven Development) on several\nprojects.\n-- Cloud hosting: Comfortable handling server setups &\ndeployments and have experience working with dedicated servers,\nAmazon EC2, Heroku.\n-- Methodology: Agile & Scrum/Kanban methodologies and great\ncommunication skills.\nI would love to help you build a state-of-the-art web application just\nas much as I would enjoy working on existing or legacy projects\n(developing new features, updating technologies, or bringing best\npractices and testing into unstable or poorly structured code).\nIf you have a project where you feel I can help out, please don't\nhesitate to get in touch!\nExperience\nFreelance\nFreelance Ruby On Rails\nJune 2022 - Present (1 month)\n\n\nEMPHASIS LIMITED\nSenior Software Engineer\nJuly 2020 - Present (2 years)\n\n\nDXC Technology\nSenior Consultant\nMarch 2019 - July 2020 (1 year 5 months)\nBengaluru, Karnataka\n\n\nTransTech Logistics Pvt. Ltd.\nTeam Lead\nAugust 2017 - February 2019 (1 year 7 months)\nBengaluru, Karnataka, India\n\n\nHappiest Minds Technologies\nSoftware Developer\nAugust 2016 - August 2017 (1 year 1 month)\nBengaluru Area, India\n\n\nSriva Technologies\nWeb Developer\nApril 2014 - July 2016 (2 years 4 months)\nBengaluru Area, India\n\n\nEducation\nAnna University\nBachelor of Engineering (BE), Computer Science • (2009 - 2013)\nContact\n9535280182 (Mobile)\n\nvemcse@gmail.com\n\n\nTop Skills\nRuby on Rails\nVue.js\nWeb Development\n\nLanguages\nEnglish\nTamil\nKannada",
     "DocumentLanguage": "en",
-    "DocumentCulture": "en-IN",
-    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = IN; Culture.DefaultCultureIsIndia = True; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
-    "DocumentLastModified": "2022-06-13"
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; InputFormat.KnownFormat = LinkedIn; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = True; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2022-06-30"
   }
 }
