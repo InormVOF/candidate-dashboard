@@ -18,40 +18,7 @@ const Layout = ({ header = null, children }: Props) => (
       </nav>
     </header>
     <main>{children}</main>
-    <Script>
-      {`
-      window.Smallchat = {
-        config: {
-            "slackTeamId": "T03R6AEGURZ",
-            "scChannelId": "-NAK9_bl7fX6iFtNQcHX",
-            "slackChannelId": "C040EJKBW00",
-            "uid": "-NAK9WCnochab6LYFipF",
-            "planId": null,
-            "accountCreated": 1661433680865
-        },
-        behavior: {
-            "avatar_config": 0,
-            "hide_offline": true,
-            "operating_hours": true,
-            "saturday": {
-                "disabled": true
-            },
-            "sunday": {
-                "disabled": true
-            },
-            "timezone": "Europe/Amsterdam"
-        },
-    };
-    var styles = document.createElement('link');
-    styles.rel = 'stylesheet';
-    styles.href = 'https://static.small.chat/messenger.css';
-    document.head.appendChild(styles);
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://static.small.chat/messenger.js';
-    document.body.appendChild(script);
-    `}
-    </Script>
+    <Script src="https://embed.small.chat/T03R6AEGURZC040EJKBW00.js" />
   </div>
 );
 
