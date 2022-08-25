@@ -78,7 +78,7 @@ module.exports = {
         concurrency: 5, // default, see using markdown and attachments for more information
         tables: [
           {
-            baseId: `appPWchccYiFTZrfx`,
+            baseId: process.env.AIRTABLE_BASE_ID,
             tableName: `Candidate`,
             // tableView: `Developers`, // optional
             queryName: `Candidate`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
@@ -88,20 +88,20 @@ module.exports = {
             // separateMapType: false, // boolean, default is false, see the documentation on using markdown and attachments for more information
           },
           {
-            baseId: `appPWchccYiFTZrfx`,
+            baseId: process.env.AIRTABLE_BASE_ID,
             tableName: `CandidateSkill`,
             queryName: `CandidateSkill`,
             tableLinks: [`Skill`],
             separateNodeType: true,
           },
           {
-            baseId: `appPWchccYiFTZrfx`,
+            baseId: process.env.AIRTABLE_BASE_ID,
             tableName: `Skill`,
             queryName: `Skill`,
             separateNodeType: true,
           },
           {
-            baseId: `appPWchccYiFTZrfx`,
+            baseId: process.env.AIRTABLE_BASE_ID,
             tableName: `Experience`,
             queryName: `Experience`,
             separateNodeType: true,

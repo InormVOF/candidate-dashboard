@@ -11,7 +11,7 @@ const Layout = ({ header = null, children }: Props) => (
     <header className="pb-2">
       <nav className="flex items-center justify-between max-w-screen-xl p-4 mx-auto">
         <a className="inline-flex items-center justify-center" href="/">
-          <img src={logo} className="h-10" />
+          <img src={logo} className="h-14" />
         </a>
         {header}
       </nav>
