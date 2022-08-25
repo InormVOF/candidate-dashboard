@@ -17,7 +17,7 @@ const Navigation = () => (
 const Hero = () => (
   <aside
     className="overflow-hidden bg-no-repeat bg-cover bg-center flex justify-center"
-    style={{ backgroundImage: `url(${withPrefix("/images/heroback.jpeg")})` }}
+    style={{ backgroundImage: `url(${withPrefix("/images/heroback.webp")})` }}
   >
     <div className="p-16 md:p-12 lg:px-16 lg:py-24  bg-black/50 w-full justify-center">
       <div className="text-center sm:text-left">
