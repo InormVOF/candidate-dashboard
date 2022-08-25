@@ -1,3 +1,4 @@
+import { Script } from "gatsby";
 import * as React from "react";
 import logo from "../images/logo.png";
 
@@ -17,6 +18,7 @@ const Layout = ({ header = null, children }: Props) => (
       </nav>
     </header>
     <main>{children}</main>
+    <Script src="https://embed.small.chat/T03R6AEGURZC040EJKBW00.js" />
   </div>
 );
 
